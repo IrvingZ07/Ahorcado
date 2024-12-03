@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .game-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input {
+    width: 30px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  #message {
+    font-weight: bold;
+    color: red;
+  }
+  
+  #incorrect-guesses {
+    color: #f44336;
+  }
+  
+  #remaining-time {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
